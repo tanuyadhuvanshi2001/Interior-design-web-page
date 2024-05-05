@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://goodhomes.wwmindia.com/content/2022/apr/all-gre-living-room-design-by-aparna-kaushik.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: solid;
+    background-color: rgb(251, 243, 243);
+
+}
+#navbar{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #009688;
+    position: absolute;
+    transition: 0.5;
+    
+}
+#navbar :hover::after{
+    width: 100%;
+
+}
+
+
+
+
+button{
+    background-color: #f08804;
+}
+#logo{
+    background-color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+}
+.content{
+    width: 100%;
+    position:absolute;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+
+}
+.content h1{
+    font-size: 40px;
+    margin-top: 80px;
+
+}
+.content p{
+    
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    color: antiquewhite;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    cursor: pointe;
+    overflow: hidden;
+    position: relative;
+    
+}
